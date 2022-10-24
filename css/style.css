@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+.up {
+    height: 50px;
+    width: 50px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.down {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+}
